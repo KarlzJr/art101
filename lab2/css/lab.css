@@ -1,0 +1,31 @@
+h1 {
+    /*display: block;*/
+    text-align: center;
+    color: purple;
+    font-size: 200%;
+    font-style: oblique;
+    font-family: "Comic Sans MS"
+}
+
+p {
+    color: red;
+    font-family: monospace;
+    font-size: 120%;
+    /*align-items: center;*/
+}
+
+#content {
+    background-color: #c5d5d9;
+    width: auto;
+    min-height: 300px;
+    padding: 10px;
+    margin: auto;
+    border: solid 5px #e3715b;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
