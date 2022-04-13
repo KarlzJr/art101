@@ -1,0 +1,11 @@
+#lab3{
+    background-color: #f7d9d0;
+    width: auto;
+    min-height: 300px;
+    border: solid 2px #d4b8b0;
+    margin: auto;
+}
+#picture{
+    float: right;
+    margin: 10px;
+}
