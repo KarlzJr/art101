@@ -33,6 +33,8 @@ p {
 #headshot {
     width: 300px;
     height: auto;
+    float: right;
+    margin: 10px;
     /*max-height: 200px;*/
 }
 
