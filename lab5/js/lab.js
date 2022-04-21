@@ -6,13 +6,13 @@
 //REMEMBER TO PUT A SEMICOLON AT THE END OF EVERY LINE!
 
 //Declare variables: make, model, year, and color
-make = "Mercedes";
-model = "C230 kompressor";
-color = "Black";
-year = 2005;
+var make = "Mercedes";
+var model = "C230 kompressor";
+var color = "Black";
+var year = 2005;
 
 //Calculate the age
-age = 2022 - year;
+var age = 2022 - year;
 
 //Print everything
 document.writeln("Make: " + make + "<br>");
