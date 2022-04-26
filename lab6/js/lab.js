@@ -15,7 +15,7 @@ var myMainRide = {
     color: "Black",
     year: 2005,
     age: function() {
-        return 2022 - age;
+        return 2022 - myMainRide.year;
     }
 }
 //Output
