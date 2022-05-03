@@ -11,22 +11,25 @@ function isOdd(x){
 
 // testing function
 var testingOdd1 = isOdd(1);
-console.log("Is 1 odd?", isOdd(1));
-console.log("Is 2 odd?", isOdd(2));
 
 var array = [35, 888, 2510, 7, 202201, 300, 99];
-console.log("My Array", array);
 
 var oddResult = array.map(isOdd);
-// should return [true, false, false, true, true, false, true]
-console.log("Test for oddness of array:", oddResult);
 
 var result = array.map(function(x){
     return x / 5;
 })
-// should return [7, 177.6, 502, 1.4, 40440.2, 60, 19.8]
+
+//Shows in Console
+console.log("Is 1 odd?", isOdd(1));
+console.log("Is 2 odd?", isOdd(2));
+console.log("My Array", array);
+//returns [true, false, false, true, true, false, true]
+console.log("Test for oddness of array:", oddResult);
+//returns [7, 177.6, 502, 1.4, 40440.2, 60, 19.8]
 console.log("Divisible of five array:", result);
 
+//displays on the website
 var outputEl = document.getElementById("output");
 outputEl.innerHTML =
     "1 is odd: " + isOdd(1) + "<br>" +
