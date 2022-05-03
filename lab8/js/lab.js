@@ -18,7 +18,7 @@ console.log("My Array", array);
 
 var oddResult = array.map(isOdd);
 // should return [true, false, false, true, true, false, true]
-console.log("Test for evenness of array:", oddResult);
+console.log("Test for oddness of array:", oddResult);
 
 var result = array.map(function(x){
     return x / 5;
@@ -28,3 +28,4 @@ console.log("Divisible of five array:", result);
 
 var outputEl = document.getElementById("output");
 outputEl.innerHTML = array; // put your results here
+outputEl.innerHTML = oddResult;
