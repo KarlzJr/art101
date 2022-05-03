@@ -10,6 +10,7 @@ function isOdd(x){
 }
 
 // testing function
+var testingOdd1 = isOdd(1);
 console.log("Is 1 odd?", isOdd(1));
 console.log("Is 2 odd?", isOdd(2));
 
@@ -27,5 +28,10 @@ var result = array.map(function(x){
 console.log("Divisible of five array:", result);
 
 var outputEl = document.getElementById("output");
-outputEl.innerHTML = array; // put your results here
-outputEl.innerHTML = oddResult;
+outputEl.innerHTML =
+    "1 is odd: " + isOdd(1) + "<br>" +
+    "2 is odd: " + isOdd(2) + "<br>" +
+    "My number array: " + array + "<br>" +
+    "Oddness test of array: " + oddResult + "<br>" +
+    "Our number array divided by 5: " + result + "<br>";
+outputEl.style.color = "#c8a2f5"
