@@ -25,3 +25,6 @@ var result = array.map(function(x){
 })
 // should return [7, 177.6, 502, 1.4, 40440.2, 60, 19.8]
 console.log("Divisible of five array:", result);
+
+var outputEl = document.getElementById("output");
+outputEl.innerHTML = array; // put your results here
