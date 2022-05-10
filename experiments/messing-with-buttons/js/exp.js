@@ -10,3 +10,8 @@ button.onclick = function(){
     var titleEl = document.getElementById("title");
     titleEl.innerHTML = "Hello " + name;
 };
+
+//Find the Element and changes color
+$("#butt1").click(function(){
+	$("#text").toggleClass("selected");
+})
