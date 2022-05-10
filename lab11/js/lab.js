@@ -9,6 +9,6 @@ $("button").click(function(){
   $("#content p").toggleClass("selected")
 });
 
-$("button").click(function(){
-  $("button").toggleClass("buttselected")
-});
+// $("button").click(function(){
+//   $("button").toggleClass("buttselected")
+// });
