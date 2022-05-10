@@ -2,6 +2,8 @@
 // Description: Experiment with jQuery
 // @author Alejandra Sicairos and Alice Aiba
 // @created  5.10.22
+var colors = ['red', 'blue', 'yellow', '', '', ''];
+var random_color = colors[Math.floor(Math.random() * colors.length)];
 
 $("#content p").append("<button>Press");
 
@@ -10,5 +12,5 @@ $("button").click(function(){
 });
 
 // $("button").click(function(){
-//   $("button").toggleClass("buttselected")
+//   $("button").css('color', random_color);
 // });
