@@ -6,9 +6,9 @@
   color: blue;
 }
 
-/* button {
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  display: inline-block;
-} */
+button {
+    background-color: orange;
+    border-color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
