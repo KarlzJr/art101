@@ -1,0 +1,12 @@
+.input-output{
+    background-color: #808080;
+    width: auto;
+    min-height: auto;
+    padding: 10px;
+    margin: auto;
+    border: solid 5px #c8a2f5;
+}
+#output p{
+  color: #c8a2f5;
+  font-family: sans-serif;
+}
