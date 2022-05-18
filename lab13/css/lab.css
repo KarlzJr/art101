@@ -1,0 +1,13 @@
+#output{
+    background-color: #808080;
+    width: auto;
+    max-height: auto;
+    padding: 10px;
+    margin: auto;
+    border: solid 5px #c8a2f5;
+    column-count: 5;
+}
+
+#output p{
+  font-size: 15px;
+}
