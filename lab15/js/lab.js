@@ -5,13 +5,14 @@
 
 function getAjax(str) {
     $("#output").html("");
+    //the API needs it to be lowercase
 	var pokemon = str.toLowerCase();
+
+    //this is what lets the user choose their pokemon
 	var endpoint = "https://pokeapi.co/api/v2/pokemon/" + pokemon;
     $.ajax({
       // API endpoint
       url: endpoint,
-      // Any data to send
-    	data: { id: 2623},
       // POST or GET request
       type: "GET",
     })
@@ -26,5 +27,5 @@ function getAjax(str) {
 
 $("#activate").click(function(){
 	var name = $("#input").val();
-  getAjax(name);
+    getAjax(name);
 });
