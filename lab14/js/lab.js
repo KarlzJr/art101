@@ -1,7 +1,7 @@
 // Summary: Lab 13: Loops
 // Description: Experiment with loops.
 // @author Alejandra Sicairos and Alice Aiba
-// @created  5.17.22
+// @created  5.23.22
 
 //print num 1-any number selected, and random words inputted
 function FizzBuzz(max, a, b, c){
